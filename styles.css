@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center;}
+.attribution { text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%);}
 
 html {
@@ -8,7 +8,7 @@ html {
 
 body {
     display: flex;
-    width: 340px;
+    width: 360px;
     Height: 600px;
     background-color: #fff;
     flex-direction: column;
@@ -70,9 +70,23 @@ p {
     margin-top: 20px;
     font-weight: bold;
 }
+footer .linked {
+    font-size: 16;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: bolder;
+}
 
 .attribution {
+    display: flex;
+   flex: 1 1 0;
+   margin-left: 16px;
+}
+.attribution > p {
     margin-bottom: 20px;
+    font-size: 10px;
 
 }
 
