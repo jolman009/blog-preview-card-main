@@ -20,13 +20,18 @@ body {
     box-shadow: 5px 10px;
 }
 
-.image-logo {
-    margin-top: 25px;
-    margin-left: 18px;
+header {
+  
+    width: 350px;
+    height: 300px;
 }
 
 img {
     border-radius: 30px;
+    width: 320px;
+    height: 300px;
+    margin-left: 18px;
+    margin-top: 15px;
 }
 
 
@@ -66,8 +71,8 @@ p {
 .linked {
     display: flex;
     flex: 1;
-    margin-left: 18px;
-    margin-top: 20px;
+    
+    margin-top: 5px;
     font-weight: bold;
 }
 footer .linked {
@@ -91,9 +96,18 @@ footer p {
     text-align: center;
 }
 
-@media only screen and (max-width:600px) { 
+.profile {
+    width: 35px;
+    height: 35px;
+}
+
+  @media (max-width: 650px) {
     body {
-      width: 26vh;
-      margin-left: -25%;
+      width: 300px;    
     }
-}      
+    img {
+        width: 260px;
+    }
+
+    }
+ 
