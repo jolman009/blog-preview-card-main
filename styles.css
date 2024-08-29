@@ -83,11 +83,12 @@ footer p {
     display: flex;
    flex: 1 1 0;
    margin-left: 16px;
+   text-align: center;
 }
-.attribution > p {
-    margin-bottom: 20px;
-    font-size: 10px;
 
+.text1 {
+    font-size: 10px;
+    text-align: center;
 }
 
 @media only screen and (max-width:600px) { 
